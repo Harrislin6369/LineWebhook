@@ -40,7 +40,11 @@ namespace LineWebHook.Controllers {
                 //should enumerate each event in reveived.events, but this is just a practice, do it simple.
                 var lineEvent = received.events.FirstOrDefault ();
 
+<<<<<<< HEAD
                 // get replyToken from lineEvent1
+=======
+                // get replyToken from lineEvent
+>>>>>>> 7588d80f662bfa10f475341f80629b5e8df90c1d
                 var replyToken = lineEvent.replyToken;
 
                 // "0x32" is token for line verify
